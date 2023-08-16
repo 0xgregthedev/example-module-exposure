@@ -1,2 +1,2 @@
-mod submod_a;
-mod submod_b;
+mod object_mod;
+mod submod_c;
