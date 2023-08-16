@@ -1,3 +1,3 @@
-pub struct ObjectA {
-    pub field_a: u32,
-}
+use crate::mod_a::object_mod::ObjectA;
+
+const A: ObjectA = ObjectA { field_a: 0 };
