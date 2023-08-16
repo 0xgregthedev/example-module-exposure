@@ -1,13 +1,10 @@
-mod submod_a;
+pub mod submod_a;
+
 mod submod_b;
+pub use submod_b::func_b;
+
 
 struct ObjectA {
     pub field_a: u32,
 }
 
-const A: ObjectA = ObjectA { field_a: 0 };
-
-pub fn func_a() {
-    println!("func_a() called");
-    println!("A.field_a = {}", A.field_a);
-}
